@@ -72,8 +72,9 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium">Location</h4>
                   <a
-                    href="mailto:sh_dl@hotmail.com"
+                    href="https://www.google.com/maps/search/+Dubai+Dubai+-+United+Arab+Emirates/?entry=wc&hl=en_US&gl=US"
                     className="text-muted-foreground hover:text-primary transition-colors duration-300"
+                    target="google maps"
                   >
                     Dubai, United Arab Emirates
                   </a>

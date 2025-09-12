@@ -1,4 +1,5 @@
 import { Briefcase, Code, User } from "lucide-react";
+import { DiHtml5 } from "react-icons/di";
 export const AboutSection = () => {
   return (
     <section id="about" className="py-24 -x-4 relative">
@@ -14,8 +15,8 @@ export const AboutSection = () => {
             <p className="text-muted-foreground">
               Bacholar's in electrical engineering with 3 years of experience
               making a pivot to web delevopment equipped with web techologies
-              like html, css and javascript and with a knowledge ammunition in
-              frameworks like react and node.js{" "}
+              React and Node.js and with a knowledge ammunition in programming
+              languages like HTML, CSS and Javascript{" "}
             </p>
             <p className="text-muted-foreground">
               am passionate about techology and and finding new solutions to
@@ -23,12 +24,16 @@ export const AboutSection = () => {
               ever-evollving web landscape
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
-              <a href="#contact" className="cosmic-button text-center">
+              <a
+                href="#contact"
+                className="cosmic-button text-center px-6 py-2"
+              >
                 Get In Touch
               </a>
               <a
-                href="#"
+                href="/public/projects/SHAZALI HASSAN.pdf"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+                download
               >
                 {" "}
                 Download CV{" "}
@@ -55,7 +60,7 @@ export const AboutSection = () => {
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-xl">Web Development</h4>
+                  <h4 className="font-semibold text-xl">UX / UI</h4>
                   <p className="text-muted-foreground">
                     desiging intuitive user interfaces and seamless user
                     experience.
@@ -69,7 +74,7 @@ export const AboutSection = () => {
                   <Briefcase className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-xl">Web Development</h4>
+                  <h4 className="font-semibold text-xl">Projects Management</h4>
                   <p className="text-muted-foreground">
                     leading projects from concepts to completions{" "}
                   </p>
