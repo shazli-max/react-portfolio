@@ -7,7 +7,7 @@ const projects = [
     description: "a react project",
     image: "/projects/project1",
     tags: ["React", "TailwindCSS", "Supabase"],
-    demoURL: "#",
+    demoURL: "./public/projects/reactapp.png",
     githubURL: "#",
   },
   {
@@ -16,7 +16,7 @@ const projects = [
     description: "a react project",
     image: "/projects/project1",
     tags: ["React", "TailwindCSS", "Supabase"],
-    demoURL: "#",
+    demoURL: "./public/projects/reactapp.png",
     githubURL: "#",
   },
   {
@@ -25,7 +25,7 @@ const projects = [
     description: "a react project",
     image: "/projects/project1",
     tags: ["React", "TailwindCSS", "Supabase"],
-    demoURL: "#",
+    demoURL: "./public/projects/reactapp.png",
     githubURL: "#",
   },
 ];
