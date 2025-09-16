@@ -25,7 +25,7 @@ const projects = [
     description: "a react project",
     image: "/projects/project1",
     tags: ["React", "TailwindCSS", "Supabase"],
-    demoURL: "/public/projects/reactapp.png",
+    demoURL: "/projects/reactapp.png",
     githubURL: "#",
   },
 ];
